@@ -9,6 +9,8 @@ setup(
     author_email =  'jon.brandvein@gmail.com',
     license =       'MIT License',
     description =   'A library for defining struct-like classes',
+    setup_requires = ['setuptools-markdown'],
+    long_description_markdown_filename = 'README.md',
     
     classifiers = [
         'Development Status :: 3 - Alpha',
